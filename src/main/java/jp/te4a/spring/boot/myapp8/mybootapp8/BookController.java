@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import jp.te4a.spring.boot.myapp7.mybootapp7.BookBean;
+import jp.te4a.spring.boot.myapp7.mybootapp7.BookService;
+
 @Controller
 public class BookController {
     @Autowired
